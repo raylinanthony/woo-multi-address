@@ -1,0 +1,76 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in echo
+#: woo.class.php:266
+msgid "< Ir a Direcciones"
+msgstr ""
+
+#. Text in echo
+#: woo.class.php:110
+#: woo.class.php:302
+msgid "Actual"
+msgstr ""
+
+#. Text in function
+#: woo.class.php:164
+msgid "Direccion %s"
+msgstr ""
+
+#. Text in function
+#: woo.class.php:1
+msgid "Direcciones"
+msgstr ""
+
+#. Text in echo
+#: woo.class.php:147
+#: woo.class.php:304
+msgid "Editar"
+msgstr ""
+
+#. Text in function
+#: woo.class.php:176
+msgid "Guardado exitosamente"
+msgstr ""
+
+#. Text in echo
+#: woo.class.php:274
+msgid "Guardando..."
+msgstr ""
+
+#. Text in echo
+#: woo.class.php:274
+msgid "Guardar"
+msgstr ""
+
+#. Text in echo
+#: woo.class.php:269
+msgid "Indica el nombre de esta dirección"
+msgstr ""
+
+#. Text in function
+#: woo.class.php:1
+msgid "Mis Direcciones"
+msgstr ""
+
+#. Text in function
+#: woo.class.php:176
+msgid "Nombres y Apellidos no deben contener números."
+msgstr ""
+
+#. Text in function
+#: woo.class.php:176
+msgid "Predeterminada"
+msgstr ""
+
+#. Text in function
+#: woo.class.php:176
+msgid "RNC sólo son 9 dígitos y no debe contener números."
+msgstr ""
+
+#. Text in echo
+#: woo.class.php:269
+msgid "obligatorio"
+msgstr ""

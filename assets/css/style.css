@@ -1,0 +1,217 @@
+/*
+Woo Multi Address
+@author Raylin Aquino <info@raylinaquino.com>
+@url https://raylinaquino.com
+**/
+.wrap-multi-dir-badged {
+    background: #fff7e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    border: 2px dashed #b88124;
+    font-size: 14px;
+}
+
+.wrap-multi-dir-badged .txt {
+    text-align: right;
+    font-size: 16px;
+}
+
+.wrap-multi-dir-badged .txt strong {
+    display: block;
+}
+
+.wrap-multi-dir-badged .btns {
+    padding-left: 20px;
+    text-align: center;
+}
+
+.wrap-multi-dir-badged .btns a {
+    font-size: 13px;
+}
+
+.wrap-multi-dir-badged .btns a.btn-choose {
+    display: block;
+    background: #930a1b;
+    border-radius: 3rem;
+    padding: 7px 25px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.wrap-multi-dir-badged .btns a.btn-choose:hover {
+    background: #d92128;
+}
+
+.woo-multi-address .head-desc {
+    margin: 2rem 0;
+}
+
+.trans-3 {
+    transition: all .3s ease;
+}
+
+.woo-multi-address .yao-checkout-page-header, .woo-multi-address #openinghours_time_field {
+    display: none;
+}
+
+.section-address {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.woo-sec-address {
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 30%;
+    flex: 0 1 30%;
+    align-items: flex-start;
+    background: #f2f2f2;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.woo-sec-address.default {
+    background: rgba(147, 10, 27, 0.13);
+}
+
+.woo-sec-address .title {
+    font-weight: bold;
+}
+
+.woo-sec-address .desc {
+    margin: 1rem;
+}
+
+.woo-sec-address .actions a.btn {
+    background: #909090;
+    display: block;
+    border-radius: 2rem;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.woo-sec-address .actions a.btn.current {
+    background: #930a1b !important;
+    cursor: inherit;
+}
+
+.woo-sec-address .actions a.btn:hover {
+    background: #d92128;
+}
+
+.woo-sec-address .actions .wrap-link-action {
+    margin-bottom: 1rem;
+}
+
+.woo-sec-address.empty a {
+    display: block;
+    border: 2px dashed #000;
+    color: #000;
+    padding: 5rem 3rem;
+    text-decoration: none;
+    opacity: .3;
+    border-radius: 1.5rem;
+}
+
+.woo-sec-address.empty .plus {
+    font-size: 8rem;
+    font-weight: 100;
+    color: #000;
+    line-height: 1;
+}
+
+.woo-sec-address.empty a:hover {
+    opacity: 1;
+}
+
+.woo-multi-address .woocommerce-form__label-for-checkbox, .woo-multi-address .woocommerce-form__input-checkbox , .woo-multi-address #activecampaign_for_woocommerce_accepts_marketing, .woo-multi-address #billing_payment_type_field, .woo-multi-address .openinghours-initial-display-block {
+    display: none !important;
+}
+
+.woo-multi-address .save_address[disabled] {
+    background: #efefef !important;
+    color: #000 ;
+    cursor: default;
+}
+
+.woo-multi-address .save_address {
+    background: #930A1B ;
+    color: #fff;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    padding: 1.5rem 3rem !important;
+    border-radius: 3rem;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.woo-multi-address .save_address:hover {
+    background: #d82128;
+}
+
+#milti-address-modal .modal-dialog{
+    max-width:800px;
+}
+#milti-address-modal .modal-header{
+    background:#f2f2f2;
+    padding:10px 20px;
+}
+#milti-address-modal .modal-title{
+    font-size:16px;
+    font-weight:bold;
+}
+#milti-address-modal .close{
+    font-size:3rem;
+}
+#milti-address-modal .woo-sec-address{
+    flex:0 1 30.5%;
+    margin:10px;
+}
+@media(max-width: 990px) {
+    .woo-sec-address {
+        flex:0 1 47%;
+        margin-right: 5%;
+    }
+
+    .woo-sec-address:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+@media (max-width:748px){
+   #milti-address-modal .woo-sec-address{
+        flex:0 0 46%;
+        margin:2%;
+    }
+}
+@media (max-width: 500px) {
+    .wrap-multi-dir-badged {
+        flex-wrap:wrap;
+        padding: 20px ;
+    }
+
+    .wrap-multi-dir-badged .txt {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 380px) {
+    .woo-sec-address {
+        flex:0 1 100%;
+        margin-right: 0;
+
+    }
+      #milti-address-modal .woo-sec-address{
+        flex:0 0 94%;
+        margin:3%;
+    }
+}
